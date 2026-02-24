@@ -5,18 +5,27 @@ COVID-19 Data Analysis Lab is a hands-on exploration of global pandemic datasets
 This repository demonstrates practical techniques for data cleaning, schema design, joins, cumulative calculations, and visualization, with a focus on connecting technical analysis to real-world insights.
 
 
- --1.Total_cases vs total_deaths,states like united 
- --2.total_cases vs population(in %),states like india or united 
- --2.max total_cases compared to population(%)
- --3.location with highest (max)total_deaths
- --5.sum=new_cases,new_deaths,new_deathd /new_cases*100,where continent is null group by date(--group by it give global value)
- --6.global value of covid cases and death
- --7.population vs vaccination(peoplevaccinated)
+ 1.Total_cases vs total_deaths,states like united
+ 
+ 2.total_cases vs population(in %),states like india or united
+ 
+ 2.max total_cases compared to population(%)
+ 
+ 3.location with highest (max)total_deaths
+ 
+ 5.sum=new_cases,new_deaths,new_deathd /new_cases*100,where continent is null group by date(--group by it give global value)
+ 
+ 6.global value of covid cases and death
+ 
+ 7.population vs vaccination(peoplevaccinated)
 
--- second try with CTE----
-----create a table for above--
----permenantly create table in view------
----now we can freely use that table for analyse--
+second try with CTE
+
+create a table for above
+
+permenantly create table in view
+
+now we can freely use that table for analyse
 
 
 - Data Sources:
